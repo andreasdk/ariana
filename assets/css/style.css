@@ -1,0 +1,10 @@
+body {
+	margin: 0;
+}
+
+.nav-ariana {
+	background-color: #F9CBCD;
+	width: 100%;
+	padding: 10%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
