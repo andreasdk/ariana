@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 }
-
+/*----------Nav*/
 .nav-ariana {
 	background-color: #F9CBCD;
 	width: 100%;
@@ -9,9 +9,9 @@ body {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);	
 }
 
-
+/*----------Hero*/
 .hero {
-	background: url("../images/ari-banner.jpg");
+	background: url("../images/ari-banner3.jpg");
 	width: 100vw;
     height: 75vh;
 	background-position: center;
@@ -19,4 +19,27 @@ body {
 	position: relative;
   	padding: 100px 0;
     background-size: cover;
+}
+
+/*----------Footer*/
+footer {
+	background-color: #F9CBCD;
+	min-height: 120px;
+}
+
+.footeritem {
+	padding: 0;
+}
+
+.footeritem a {
+	width: 100%;
+	text-decoration: none;
+	height: 120px;
+}
+
+.footeritem a i {
+	padding-top: 22px;
+    display: block;
+    color: #040304;
+    font-size: 26px;
 }
