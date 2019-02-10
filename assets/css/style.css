@@ -1,6 +1,20 @@
 body {
 	margin: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5, {
+	margin: 0;
+}
+
+/*----------Headings*/
+.section-heading {
+	color: #fff;
+	text-align: center;
+}
 /*----------Nav*/
 .nav-ariana {
 	background-color: #F9CBCD;
@@ -21,11 +35,22 @@ body {
     background-size: cover;
 }
 
+/*----------Music*/
+.music-wrapper {
+	background-color: #040304;
+}
+
+.music {
+	margin-top: 1em;
+}
+
 /*----------Footer*/
 footer {
 	background-color: #F9CBCD;
 	min-height: 120px;
 	width: 100vw !important;
+	display: flex;
+	justify-content: space-between;
 }
 
 .footeritem {
@@ -36,8 +61,6 @@ footer {
 	width: 100%;
 	text-decoration: none;
 	height: 120px;
-	display: flex;
-    justify-content: center;
 }
 
 .footeritem a i {
