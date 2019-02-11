@@ -25,14 +25,16 @@ h5, {
 
 /*----------Hero*/
 .hero {
-	background: url("../images/ari-banner3.jpg");
+	background: url("../images/ari-banner.jpg");
 	width: 100vw;
     height: 75vh;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 	position: relative;
   	padding: 100px 0;
-    background-size: cover;
+    
 }
 
 /*----------Music*/
@@ -42,6 +44,30 @@ h5, {
 
 .music {
 	margin-top: 1em;
+}
+
+/*----------CSS from embedresponsively.com start*/
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+	.embed-container iframe, 
+	.embed-container object, 
+	.embed-container embed { 
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		width: 100%; 
+		height: 100%; 
+	}
+/*----------CSS from embedresponsively.com end*/	
+
+/*----------Tour*/
+.tour-wrapper {
+	background-color: #FF8389;
 }
 
 /*----------Footer*/
