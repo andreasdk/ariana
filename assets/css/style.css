@@ -17,6 +17,7 @@ h5, {
 	color: #fff;
 	text-align: center;
 	padding-top: 1em;
+	padding-bottom: 1em;
 	font-family: 'Cabin', sans-serif;
 }
 
@@ -28,14 +29,6 @@ h5, {
 .nav-link {
 	font-size: 1.5em;
 }
-
-@media (max-width: 768px) { 
-	.navbar-light .navbar-nav .nav-link {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    text-align: center !important;
-  }
- }
 /*----------Nav*/
 .nav-ariana {
 	background-color: #F9CBCD;
@@ -64,7 +57,8 @@ h5, {
 }
 
 .music {
-	margin-top: 1em;
+	margin: .5em;
+
 }
 
 /*----------CSS from embedresponsively.com start*/
