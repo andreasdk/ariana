@@ -15,10 +15,10 @@ h5 {
 /*----------Headings*/
 .section-heading {
 	color: #fff;
-	text-align: center;
-	padding-top: 1em;
-	padding-bottom: 1em;
 	font-family: 'Cabin', sans-serif;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	text-align: center;
 }
 
 .navbar-brand {
@@ -33,11 +33,11 @@ h5 {
 
 .nav-ariana {
 	background-color: #F9CBCD;
-	width: 100vw;
-	padding: 2% !important; 
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);	
-
+	padding: 2% !important; 
+	width: 100vw;
 }
+
 @media (min-width: 768px) {
 	.navbar-nav .nav-link {
 		margin:0 auto;
@@ -46,44 +46,43 @@ h5 {
 
 
 /*----------Hero*/
-.hero {
+.hero-image {
 	background: url("../images/ari-banner.jpg");
-	width: 100vw;
-	height: 75vh;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 85vh;
 	position: relative;
-	padding: 100px 0;
+	width: 100vw;
 }
 
 /*----------Music*/
 .music-wrapper {
 	background-color: #89A3B2;
-	padding-bottom: 3em;
 }
 
 .music {
-	margin: .5em;
+	padding-top: 2em
 }
 
-/*----------CSS from embedresponsively.com start*/
-.embed-container { 
-	position: relative; 
-	padding-bottom: 56.25%; 
-	height: 0; 
-	overflow: hidden; 
-	max-width: 100%; 
-} 
-.embed-container iframe, 
-.embed-container object, 
-.embed-container embed { 
-	position: absolute; 
-	top: 0; 
-	left: 0; 
+.container-fluid .container {
+    padding-left:0;
+    padding-right:0;
 }
-/*----------CSS from embedresponsively.com end*/	
+
+.img-music {
+	margin-bottom: 1em;
+}
+
+.spotify-player {
+	display: block;
+	margin:auto;
+}
+
+.spotify-button {
+	margin:1em;
+}
+
 
 /*----------Tour*/
 .tour-wrapper {
@@ -142,26 +141,27 @@ thead {
 	.tour-table .location {
 		display: inline;
 	}
+}
 
 
-	/*----------Footer*/
-	footer {
-		background-color: #F9CBCD;
-		min-height: 120px;
-		width: 100vw !important;
-		display: flex;
-		justify-content: center;
-	}
+/*----------Footer*/
+footer {
+	background-color: #F9CBCD;
+	min-height: 120px;
+	width: 100vw !important;
+	display: flex;
+	justify-content: center;
+}
 
-	.footeritem a {
-		width: 100%;
-		text-decoration: none;
-		height: 120px;
-	}
+.footeritem a {
+	width: 100%;
+	text-decoration: none;
+	height: 120px;
+}
 
-	.footeritem a i {
-		padding-top: .75em;
-		color: #040304;
-		font-size: 3em;
-	}
+.footeritem a i {
+	padding-top: .75em;
+	color: #040304;
+	font-size: 3em;
+}
 
