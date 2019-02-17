@@ -14,6 +14,7 @@ h5 {
 
 /*----------Section Padding*/
 .music-wrapper,
+.video-wrapper ,
 .tour-wrapper {
 	padding: 2em 4em;
 }
@@ -91,6 +92,24 @@ h5 {
 	margin:1em;
 }
 
+/*----------Tour*/
+.video-wrapper {
+	background-color: pink;
+}
+
+.video-responsive{
+	height:0;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+}
+.video-responsive iframe{
+	height:100%;
+    left:0;
+    position:absolute;
+    top:0; 
+    width:100%;
+}
 
 /*----------Tour*/
 .tour-wrapper {
