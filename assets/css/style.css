@@ -184,6 +184,10 @@ footer {
 	min-height: 120px;	
 }
 
+.footeritem {
+    width:25%;
+}
+
 .footeritem a {
 	height: 120px;
 	text-decoration: none;
