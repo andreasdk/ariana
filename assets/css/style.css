@@ -13,11 +13,18 @@ body {
 
 /*----------Headings*/
 .section-heading {
-	color: #fff;
-	font-family: 'Cabin', sans-serif;
-	padding-bottom: 1em;
-	padding-top: 1em;
-	text-align: center;
+    color: #040304;
+    font-weight:100;
+    margin-top: 2em;
+    text-align: center;
+}
+
+hr {
+    background-color: #040304;
+    height: .05em;
+    margin-bottom: 3em;
+    margin-top: 0;
+    width: 25%;
 }
 
 /*----------Nav*/
