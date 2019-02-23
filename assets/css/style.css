@@ -176,6 +176,22 @@ thead {
 		display: inline;
 	}
 }
+
+/*----------Contact*/
+.form-contact {
+	background-color: #040304;
+	border-radius: 1%;
+	color: #F9CBCD;
+	margin-bottom: 2%;
+	padding: 2%;
+	width: 100%;
+}
+
+.contact-send {
+	color: #040304;
+	background-color: #F9CBCD;
+}
+
 /*----------Footer*/
 footer {
 	background-color: #F9CBCD;
