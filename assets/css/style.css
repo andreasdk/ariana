@@ -1,22 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin|Roboto+Condensed');
 
 body {
-	margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
+	background-color: #F9CBCD;
 	margin: 0;
 }
 
 /*----------Section Padding*/
-.music-wrapper,
-.video-wrapper ,
-.tour-wrapper {
-	padding: 2em 4em;
+.hero-wrapper,
+.music-wrapper {
+    padding-left:0 !important;
+    padding-right: 0 !important;
 }
 
 /*----------Headings*/
@@ -38,15 +30,14 @@ h5 {
 }
 /*----------Nav*/
 
-.nav-ariana {
-	background-color: #F9CBCD;
+#nav-ariana {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);	
 	padding: 2%; 
 	width: 100vw;
 }
 
 @media (min-width: 768px) {
-	.navbar-nav .nav-link {
+	#navbar-nav .nav-link {
 		margin:0 auto;
 	}
 }
@@ -89,7 +80,8 @@ h5 {
 }
 
 .spotify-button {
-	margin:1em;
+	display: block;
+	margin:auto;
 }
 
 /*----------Tour*/
