@@ -20,28 +20,29 @@ body {
 	text-align: center;
 }
 
-.navbar-brand {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 2em;
-}
-
-.navbar-nav .nav-link {
-	font-size: 1.75em;
-}
 /*----------Nav*/
 
-#nav-ariana {
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);	
-	padding: 2%; 
-	width: 100vw;
+#navbarAri {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 @media (min-width: 768px) {
-	#navbar-nav .nav-link {
-		margin:0 auto;
+	#navLinks .nav-link {
+		margin: 0 auto;
 	}
 }
 
+#navbarAri .navbar-brand {
+    color: #040304;
+    font-size: 1.75rem;
+}
+
+#navLinks .nav-link:hover{
+    color: #040304;
+}
 
 /*----------Hero*/
 .hero-image {
