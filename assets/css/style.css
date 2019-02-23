@@ -36,7 +36,7 @@ hr {
     padding-top: 0;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 	#navLinks .nav-link {
 		margin: 0 auto;
 	}
@@ -52,6 +52,9 @@ hr {
 }
 
 /*----------Hero*/
+.hero-wrapper {
+	margin-top: 2.5em;
+}
 
 /*----------Music*/
 
@@ -200,6 +203,12 @@ thead {
 .contact-send {
 	color: #040304;
 	background-color: #F9CBCD;
+}
+
+@media (max-width: 576px) {
+	.contact-send {
+		width: 100%;
+	}
 }
 
 /*----------Footer*/
