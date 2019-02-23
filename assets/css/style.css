@@ -15,6 +15,7 @@ body {
 .section-heading {
     color: #040304;
     font-weight:100;
+    font-family: "Cabin", sans-serif;
     margin-top: 2em;
     text-align: center;
 }
@@ -68,6 +69,7 @@ hr {
 
 .music-info .title {
     color: #040304;
+    font-family: "Cabin", sans-serif;
     font-weight: 300;
 }
 
@@ -141,6 +143,7 @@ hr {
 .tour-table td {
 	background: #040304;
 	border-bottom: 2px solid #F9CBCD;
+	font-family: "Cabin", sans-serif;
 	padding: 20px 10px;
 	
 }
@@ -195,6 +198,7 @@ thead {
 	background-color: #040304;
 	border-radius: 1%;
 	color: #F9CBCD;
+	font-family: "Cabin", sans-serif;
 	margin-bottom: 2%;
 	padding: 2%;
 	width: 100%;
