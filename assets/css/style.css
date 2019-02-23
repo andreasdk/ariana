@@ -52,42 +52,28 @@ hr {
 }
 
 /*----------Hero*/
-.hero-image {
-	background: url("../images/ari-banner.jpg");
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
-	height: 85vh;
-	position: relative;
-	width: 100vw;
-}
 
 /*----------Music*/
-.music-wrapper {
-	background-color: #BBA1A2;
+
+.music-content {
+    margin-bottom: 6.25em;
+    margin-top: 6.25em;
 }
 
-.container-fluid .container {
-    padding-left:0;
-    padding-right:0;
+.music-info {
+    text-align: center;
 }
 
-@media (max-width: 768px) {
-	.container {
-    max-width: 540px !important;
-	}
+.music-info .title {
+    color: #040304;
+    font-weight: 300;
 }
 
-.img-music {
-	margin-bottom: 1em;
+.music-item-center {
+    justify-content: center !important;
 }
 
 .spotify-player {
-	display: block;
-	margin:auto;
-}
-
-.spotify-button {
 	display: block;
 	margin:auto;
 }
