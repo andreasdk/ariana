@@ -57,7 +57,6 @@ hr {
 
 .music-content {
     margin-bottom: 6.25em;
-    margin-top: 6.25em;
 }
 
 .music-info {
@@ -81,6 +80,12 @@ hr {
 .btn-ari {
 	background-color: #040304;
 	color:#F9CBCD;
+}
+
+@media (max-width: 576px) {
+	.title {
+		margin-top: 1em;
+	}
 }
 
 /*----------Video*/
