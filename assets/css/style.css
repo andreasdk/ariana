@@ -1,9 +1,11 @@
-
+html,
+body {
+	max-width: 100%;
+    overflow-x: hidden;
+}
 body {
 	background-color: #F9CBCD;
 	margin: 0;
-	max-width: 100%;
-    overflow-x: hidden;
 }
 
 /*----------Section Padding*/
