@@ -8,6 +8,7 @@ body {
 
 /*----------Section Padding*/
 .hero-wrapper,
+.news-wrapper,
 .music-wrapper {
     padding-left:0 !important;
     padding-right: 0 !important;
