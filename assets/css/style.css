@@ -2,6 +2,8 @@
 body {
 	background-color: #F9CBCD;
 	margin: 0;
+	max-width: 100%;
+    overflow-x: hidden;
 }
 
 /*----------Section Padding*/
@@ -155,7 +157,6 @@ hr {
 .ari-news.hover .card-img-overlay {
   opacity: 0;
 }
-
 
 /*----------Music*/
 
