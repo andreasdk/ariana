@@ -330,22 +330,26 @@ thead {
 
 /*----------Contact*/
 .form-contact {
-	background-color: #040304;
-	border-radius: 1%;
 	color: #F9CBCD;
 	font-family: "Cabin", sans-serif;
-	margin-bottom: 2%;
+	margin: 0 auto;
 	padding: 2%;
 	width: 100%;
 }
 
-.contact-send {
-	color: #040304;
-	background-color: #F9CBCD;
+.btn-submit {
+	color: #F9CBCD;
+	background-color: #040304;
+	padding: .35em 1.5em;
+    text-transform: lowercase;
+}
+
+.btn-submit:hover {
+	color: #F9CBCD;
 }
 
 @media (max-width: 576px) {
-	.contact-send {
+	.btn-submit {
 		width: 100%;
 	}
 }
