@@ -135,6 +135,10 @@ hr {
   margin-bottom: .5em;
 }
 
+.card-img-overlay {
+  margin-bottom: .5em;
+}
+
 .ari-news-hover {
   position: absolute;
   top: 0;
@@ -155,7 +159,6 @@ hr {
   top: 0;
   bottom: 0;
   position: absolute;
-  z-index: 1;
 }
 
 .ari-news:hover .ari-news-hover,
@@ -213,13 +216,19 @@ hr {
 
 .dropdown-menu {
     background-color: #040304;
+    min-width: 10.30em;
 }
 
 .dropdown-item {
     background-color: #040304;
     color: #F9CBCD;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: lowercase;
+}
+
+.dropdown-item:hover {
+    background-color: #F9CBCD;
+    color: #040304;
 }
 
 @media (max-width: 576px) {
