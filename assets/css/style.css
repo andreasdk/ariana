@@ -198,16 +198,28 @@ hr {
 .btn-ari {
 	background-color: #040304;
 	color:#F9CBCD;
-	box-shadow: 0px 2px 4px rgba(43, 43, 43, 1)
+	box-shadow: 0px 2px 4px rgba(43, 43, 43, 1);
     transition: all 0.3s ease 0s;
-    cursor: pointer;
+    width: 100%;
+    max-width: 8.25em;
 }
 
 .btn-ari:hover {
     background-color: #2b2b2b;
     box-shadow: 0px 4px 8px rgba(43, 43, 43, 1);
-    color:#f4d0d1;
+    color:#ffc5c8;
     transform: translateY(-2px);
+}
+
+.dropdown-menu {
+    background-color: #040304;
+}
+
+.dropdown-item {
+    background-color: #040304;
+    color: #F9CBCD;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 @media (max-width: 576px) {
