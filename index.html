@@ -14,19 +14,29 @@
 <body>
 <!--Navbar-->
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light" id="navbarAri">
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbarAri">
 			<a class="navbar-brand" href="#">Ariana Grande</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navLinks">
-				<div class="navbar-nav mx-auto">
-					<a class="nav-item nav-link active" href="#home">Home<span class="sr-only">(current)</span></a>
-					<a class="nav-item nav-link" href="#music">Music</a>
-					<a class="nav-item nav-link" href="#videos">Videos</a>
-					<a class="nav-item nav-link" href="#tour">Tour</a>
-					<a class="nav-item nav-link" href="#contact">Contact</a>
-				</div>
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+						<a class="nav-link" href="#music">Music</a>
+					</li>
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+						<a class="nav-link" href="#videos">Videos</a>
+					</li>
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+						<a class="nav-link" href="#tour">Tour</a>
+					</li>
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
 			</div>
 		</nav>
 	</header>
@@ -343,10 +353,10 @@
 				</tr>
 			</tbody>
 		</table>
-</section>
+	</section>
 
 <!--Contact-->
-<section id="contact" class="container-fluid">
+	<section id="contact" class="container-fluid">
 		<div class="section-content">
 			<h2 class="section-heading">Contact</h2>
 			<hr>
@@ -358,34 +368,34 @@
 					<div class="col-md-6">
 						<div class="form-group">
 							<label for="full_name">Your name</label>
-							<input type="text" class="form-control" name="full_name" id="full_name" placeholder="Enter Name">
+							<input type="text" class="form-control" name="full_name" id="full_name" placeholder="Enter Name" required>
 						</div>
 						<div class="form-group">
 							<label for="email">Email Address</label>
-							<input type="email" class="form-control" id="email" name="email" placeholder="Enter Email">
+							<input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" required>
 						</div>
 						<div class="form-group">
 							<label for="subject">Subject</label>
-							<input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+							<input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject" required>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="form-group">
 							<label for="message">Message</label>
-							<textarea class="form-control" name="message" value="" id="message" cols="50" placeholder="Enter Your Message"></textarea>
+							<textarea class="form-control" name="message" value="" id="message" cols="50" placeholder="Enter Your Message"required></textarea>
 						</div>
 						<div>
-								<button type="submit" class="btn btn-default contact-send hvr-grow"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send Message</button>
-                            </div>
+							<button type="submit" class="btn btn-default contact-send hvr-grow"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send Message</button>
+                        </div>
 					</div>
 				</div>
 			</form>
 		</div>
-</section>
+	</section>
 
 <!--Footer-->
-<footer class="container-fluid">
-	<div class="row">
+	<footer class="container-fluid">
+		<div class="row">
 			<div class="col-sm-3 col-xs-2 footeritem">
 				<a hre
 				f="#"><i class="fab fa-facebook-square"></i></a>
@@ -399,13 +409,12 @@
 			<div class="col-sm-3 col-xs-2 footeritem">
 				<a href="#"><i class="fab fa-instagram"></i></a>
 			</div>
-	</div>
-</footer>
+		</div>
+	</footer>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
