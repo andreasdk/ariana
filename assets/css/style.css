@@ -68,12 +68,19 @@ hr {
     margin-top:3em;
     width: 100vw;
 }
+/* Credit: https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling */
+.navbar.scrolled {
+	background-color: #f4d0d1;
+	transition: background 500ms;
+}
+
 
 @media (max-width: 576px) {
     .hero-wrapper {
         background-size: cover;
     }
 }
+
 
 /*----------News*/
 .news-content {
