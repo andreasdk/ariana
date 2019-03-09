@@ -6,6 +6,7 @@ body {
 body {
 	background-color: #F9CBCD;
 	margin: 0;
+	font-size: 16px;
 }
 
 /*----------Section Padding*/
@@ -43,8 +44,8 @@ hr {
 }
 
 @media (max-width: 768px) {
-	#navLinks .nav-link {
-		margin: 0 auto;
+	.navbar {
+		text-align: center;
 	}
 }
 
@@ -64,6 +65,7 @@ hr {
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
+    margin-top:3em;
     width: 100vw;
 }
 
