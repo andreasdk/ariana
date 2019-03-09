@@ -198,14 +198,14 @@ hr {
 .btn-ari {
 	background-color: #040304;
 	color:#F9CBCD;
-	box-shadow: 0px 2px 4px rgba(4, 3, 4, 1);
+	box-shadow: 0px 2px 4px rgba(43, 43, 43, 1)
     transition: all 0.3s ease 0s;
     cursor: pointer;
 }
 
 .btn-ari:hover {
-    background-color: #A1ACB2;
-    box-shadow: 0px 4px 8px rgba(161, 172, 178, 1);
+    background-color: #2b2b2b;
+    box-shadow: 0px 4px 8px rgba(43, 43, 43, 1);
     color:#fff;
     transform: translateY(-2px);
 }
