@@ -45,6 +45,7 @@ hr {
 
 @media (max-width: 768px) {
 	.navbar {
+		background-color:#F9CBCD;
 		text-align: center;
 	}
 }
@@ -65,7 +66,7 @@ hr {
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
-    margin-top:3em;
+    margin-top:3.10em;
     width: 100vw;
 }
 /* Credit: https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling */
