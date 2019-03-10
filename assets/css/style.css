@@ -79,14 +79,12 @@ hr {
 @media (max-width: 576px) {
     .hero-wrapper {
         background-size: cover;
+        height:60vh;
     }
 }
 
 
 /*----------News*/
-.news-content {
-    margin: 0 auto;
-}
 
 .card {
   border: none;
