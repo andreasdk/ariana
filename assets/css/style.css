@@ -22,7 +22,7 @@ body {
     color: #040304;
     font-weight:100;
     font-family: "Cabin", sans-serif;
-    margin-top: 2em;
+    margin-top: 1em;
     text-align: center;
 }
 
@@ -59,30 +59,16 @@ hr {
     color: #040304;
 }
 
-/*----------Hero*/
-.hero-wrapper {
-    background-image: url(../images/ari-main.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
-    margin-top:3.10em;
-    width: 100vw;
-}
 /* Credit: https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling */
 .navbar.scrolled {
 	background-color: #f4d0d1;
 	transition: background 500ms;
 }
 
-
-@media (max-width: 576px) {
-    .hero-wrapper {
-        background-size: cover;
-        height:60vh;
-    }
+/*----------Hero*/
+.hero {
+    margin-top:3.10em;
 }
-
 
 /*----------News*/
 

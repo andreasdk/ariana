@@ -15,15 +15,12 @@
 <!--Navbar-->
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbarAri">
-			<a class="navbar-brand" href="#">Ariana Grande</a>
+			<a class="navbar-brand" href="#hero">Ariana Grande</a>
 			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navLinks">
 				<ul class="navbar-nav">
-					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-						<a class="nav-link" href="#home">Home</a>
-					</li>
 					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
 						<a class="nav-link" href="#news">News</a>
 					</li>
@@ -43,16 +40,32 @@
 			</div>
 		</nav>
 	</header>
-
 <!--Hero-->
-	<section class="container hero-wrapper" id="home">
+<!--Responsive hero images from https://www.responsivebreakpoints.com/-->		
+	<section class="hero">
+		<picture>
+			<img
+			sizes="(max-width: 1400px) 100vw, 1400px"
+			srcset="
+			assets/images/ari-main_maqcyg_c_scale,w_200.jpg 200w,
+			assets/images/ari-main_maqcyg_c_scale,w_574.jpg 574w,
+			assets/images/ari-main_maqcyg_c_scale,w_848.jpg 848w,
+			assets/images/ari-main_maqcyg_c_scale,w_1039.jpg 1039w,
+			assets/images/ari-main_maqcyg_c_scale,w_1219.jpg 1219w,
+			assets/images/ari-main_maqcyg_c_scale,w_1394.jpg 1394w,
+			assets/images/ari-main_maqcyg_c_scale,w_1400.jpg 1400w"
+			src="assets/images/ari-main_maqcyg_c_scale,w_1400.jpg"
+			alt="">
+		</picture>
 	</section>
+
+
 
 <!--News-->
 	<section class="container-fluid news-wrapper" id="news">
 		<h2 class="section-heading">News</h2>
 		<hr>
-		<div class="row news-content">
+		<div class="row">
 			<div class="col-sm-12 col-md-4 my-3">
 				<div class="card ari-news">
 					<img src="assets/images/tun-music.jpg" class="card-img img-fluid">
