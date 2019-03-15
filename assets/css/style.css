@@ -35,7 +35,7 @@ hr {
 /*----------Nav*/
 
 #navbarAri {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1.75em;
   padding-bottom: 0;
   padding-top: 0;
@@ -60,7 +60,7 @@ hr {
 
 /* Credit: https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling */
 .navbar.scrolled {
-  background-color: #f4d0d1;
+  background-color: #F9CBCD;
   transition: background 500ms;
 }
 
@@ -118,23 +118,28 @@ hr {
   vertical-align: top;
 }
 
+.card-img-overlay {
+  margin-bottom: .5em;
+}
+
 .card-title {
   bottom: 0;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 800;
   letter-spacing: -0.4px;
   margin-bottom: 1.5em;
-  position: absolute;
   z-index: 1;
 }
 
 .card-text {
-  bottom: 0;
-  position: absolute;
+	font-family: 'Cabin', sans-serif;
 }
 
-.card-text,
-.card-img-overlay {
-  margin-bottom: .5em;
+.card-title,
+.card-text {
+	font-size:1.25em;
+	bottom: 0;
+	position: absolute;
 }
 
 .ari-news-hover {
@@ -152,7 +157,7 @@ hr {
 }
 
 .ari-news-hover i {
-	color:#F9CBCD;
+  color:#F9CBCD;
 }
 
 .ari-news a {
@@ -187,7 +192,7 @@ hr {
 
 .music-info .title {
   color: #040304;
-  font-family: "Cabin", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
 }
 
@@ -204,6 +209,7 @@ hr {
   background-color: #040304;
   box-shadow: 0px 0.125em .25em rgba(43, 43, 43, 1);
   color: #F9CBCD;
+  font-family: 'Ubuntu', sans-serif;
   max-width: 8.25em;
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
@@ -225,6 +231,7 @@ hr {
 .dropdown-item {
   background-color: #040304;
   color: #F9CBCD;
+  font-family: 'Ubuntu', sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
@@ -301,6 +308,7 @@ hr {
 }
 
 .tour-table td:last-child {
+  font-family: 'Ubuntu', sans-serif;	
   font-size: .85em;
   font-weight: 700;
   letter-spacing: 0;
@@ -344,14 +352,18 @@ thead {
 
 /*----------Contact*/
 .form-contact {
-  font-family: "Cabin", sans-serif;
   margin: 0 auto;
   width: 100%;
+}
+
+input[type=email] {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .btn-submit {
   color: #F9CBCD;
   background-color: #040304;
+  font-family: 'Ubuntu', sans-serif;
   padding: .35em 1.5em;
   text-transform: lowercase;
 }
