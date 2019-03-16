@@ -48,8 +48,9 @@ Here is a link to the [mockup.](https://app.moqups.com/K3PEm0KV9a/view?fit_width
 
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) is the markup language I used to create the website content.
 I tried to use semantic HTML where possible.
-* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) was used to style the content of the page. I used CSS to set colors, underline effects, headings, text, hover effects, and to make content responsive.
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) was used to style the content of the page. I used CSS to set colors, underline effects, headings, text, hover effects, positioning with flexbox, and to make content responsive.
 * I used [Bootstrap 4](https://getbootstrap.com/) for responsive grid layout, alignment, column sizing, navigation and utilities.
+* I used [Google Fonts](https://fonts.google.com/) for the font families
 * I used [jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery) to give the transparent navbar a background color on scroll.
 
 ---
