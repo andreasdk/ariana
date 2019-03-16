@@ -40,7 +40,7 @@ Here is a link to the [mockup.](https://app.moqups.com/K3PEm0KV9a/view?fit_width
 * I considered adding more text to the news section cards to make it really obvious what the cards were for, but ultimately scrapped it.
 
 #### Features Changed From Mockup
-* I has designed the hero image to be right aligned in desktop taking up half the screen, with a left-align about section taking up the other half. When I looked at the official Ariana Grande website, I noticed there is not much text, it's very image heavy. I decided that a user visiting her website would be aware of who she was and didn't go ahead with the about section, and changed the hero image to be take up the full height and width on all devices.
+* I had designed the hero image to be right aligned in desktop taking up half the screen, with a left-align about section taking up the other half. When I looked at the official Ariana Grande website, I noticed there is not much text, it's very image heavy. I decided that a user visiting her website would be aware of who she was and didn't go ahead with the about section, and changed the hero image to be take up the full height and width on all devices.
 
 ---
 
