@@ -39,6 +39,9 @@ Here is a link to the [mockup.](https://app.moqups.com/K3PEm0KV9a/view?fit_width
 #### Features Left To Implement
 * I considered adding more text to the news section cards to make it really obvious what the cards were for, but ultimately scrapped it.
 
+#### Features Changed From Mockup
+* I has designed the hero image to be right aligned in desktop taking up half the screen, with a left-align about section taking up the other half. When I looked at the official Ariana Grande website, I noticed there is not much text, it's very image heavy. I decided that a user visiting her website would be aware of who she was and didn't go ahead with the about section, and changed the hero image to be take up the full height and width on all devices.
+
 ---
 
 ## Technologies Used
@@ -55,4 +58,9 @@ I tried to use semantic HTML where possible.
 * I validated my HTML code with [WC3 HTML Validator](https://validator.w3.org) and got 'Document checking completed. No errors or warnings to show.'.
 * I validated my CSS code with [WC3 CSS Validator](https://jigsaw.w3.org/css-validator/) and got 'Congratulations! No Error Found.'.
 
-I used Chrome development tools to test how my website looked on mobile and desktop. I also used c9 as a sort of sandbox for ideas I had, to see how they would look on the site.
+* I used Chrome development tools to test how my website looked on mobile and desktop. I also used c9 as a sort of sandbox for ideas I had, to see how they would look on the site.
+
+<dl>
+  <dt>News links</dt>
+  * News cards should show a relevant icon on hover, and direct user to relevant section on click. &#10004;
+ </dl>
