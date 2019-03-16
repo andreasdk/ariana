@@ -61,6 +61,35 @@ I tried to use semantic HTML where possible.
 * I used Chrome development tools to test how my website looked on mobile and desktop. I also used c9 as a sort of sandbox for ideas I had, to see how they would look on the site.
 
 <dl>
+
+  <dt>Hero image</dt>
+  * Hero image resizes responsively &#10004;
+
   <dt>News links</dt>
-  * News cards should show a relevant icon on hover, and direct user to relevant section on click. &#10004;
+  * News cards show an icon on hover, and direct user to relevant section on click. &#10004;
+
+  <dt>Music rows</dt>
+  * Music row images alternate position on desktop &#10004;
+  * Music rows stack in order on mobile &#10004;
+
+  <dt>Music content</dt>
+  * Music content is horizontally and vertically alligned on all screens &#10004;
+ 
+  <dt>Music buttons</dt>
+  * Music buttons jumps slightly on hover &#10004;
+  * Music buttons links open in new tab &#10004;
+
+  <dt>Video</dt>
+  * Video scales for mobile screens &#10004;
+
+  <dt>Tour table</dt>
+  * Buy now text inverts on hover &#10004;
+  * Buy now links open in new tab &#10004;
+  * Table scales responsively &#10004;
+
+  <dt>Newsletter</dt>
+  * User is prompted to enter email &#10004;
+  * Warning appears if user doesn't enter '@' &#10004;
  </dl>
+
+ 
