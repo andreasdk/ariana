@@ -83,6 +83,10 @@ hr {
   }
 }
 
+.hero-text {
+	display: none;
+}
+
 /*----------News*/
 
 .card {
@@ -244,8 +248,6 @@ hr {
 }
 
 /*----------Video*/
-/* Credit: Nicolas Gallagher and SUIT CSS.*/
-
 .embed-responsive {
   display: block;
   height: 0;
