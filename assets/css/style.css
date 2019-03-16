@@ -71,7 +71,7 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 3.15em;
-  padding-top: 100%;
+  padding-top: 100%;/*setting padding instead of height stops the image being clipped in mobile view */
   width: 100vw;
 }
 
@@ -194,10 +194,6 @@ hr {
   color: #040304;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
-}
-
-.music-item-center {
-  justify-content: center !important;
 }
 
 .spotify-player {
@@ -357,6 +353,7 @@ thead {
 }
 
 input[type=email] {
+  border: 1px solid #888;
   font-family: 'Ubuntu', sans-serif;
 }
 
