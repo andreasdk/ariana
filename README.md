@@ -2,7 +2,7 @@
 
 [Link to website](https://andreasdk.github.io/ariana/)
 
-For this project, I made a static frontend website for the singer Ariana Grande that includes a news section, a music section, a video section, a tour section, and a newsletter section. I also included social media links.
+For this project, I made a static frontend website for Ariana Grande that includes a news section, a music section, a video section, a tour section, and a newsletter section. I also included social media links.
 
 ---
 
@@ -60,8 +60,12 @@ I tried to use semantic HTML where possible.
 
 * I used Chrome development tools to test how my website looked on mobile and desktop. I also used c9 as a sort of sandbox for ideas I had, to see how they would look on the site.
 
-<dl>
+#### Changes Made From Testing
+* I changed the navbar to fixed-top following recommendations from CI Students in Slack
+* Overflow-x to hidden
+* I used TinyPNG to compress the images used on the website
 
+<dl>
   <dt>Hero image</dt>
   <dd>Hero image resizes responsively &#10004;</dd>
 
@@ -90,5 +94,44 @@ I tried to use semantic HTML where possible.
   <dt>Newsletter</dt>
   <dd>User is prompted to enter email &#10004;</dd>
   <dd>Warning appears if user doesn't enter '@' &#10004;</dd>
- </dl>
+</dl>
+
+
+---
+
+## Deployment
+* I deployed this website via GitHub Pages. [Link to website](https://andreasdk.github.io/ariana/)
+* There are no differences between the local and deployed websites.
+* I only used a main branch.
+
+---
+
+## Credit
+
+#### Content
+* I got the tour dates from the official Ariana Grande [website](https://www.arianagrande.com/events)
+* I got the music links from [Spotify](https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR?si=0LIaRBRiQhm99Tt-2SMftA)
+* I got the music links from [YouTube](https://www.youtube.com/watch?v=1ekZEVeXwek)
+* The Amazon and FNAC links I found by searching on the respective websites
+* I also got the social media links through a Google search
+
+#### Images
+* [Hero image](https://studybreaks.com/wp-content/uploads/2018/12/dangerous-main.jpg)
+The hero image was edited in Photoshop to add a gradient
+* [News image 1](https://yt3.ggpht.com/a-/AAuE7mD4NXLs5D8DZpyMe3jQSKtrqLDkoo3W8cOccQ=s900-mo-c-c0xffffffff-rj-k-no)
+* [News image 2](https://1.bp.blogspot.com/-nqYI7OqqhGY/WvjClpXrlQI/AAAAAAAC_bw/A_-I2GzVfFsd7NXbhHRzYIWAlk-0qJmDgCLcBGAs/s1600/ARIANA+GRANDE+%2833%29.jpg)
+* [News image 3](http://www.mtv.co.uk/sites/default/files/styles/image-w-520-h-520-scale-crop/public/mtv_uk/galleries/large/2018/06/19/ariana_grande_.jpg?itok=TcfLNEZj)
+* [thank u next album cover](http://www.jagurltv.com/wp-content/uploads/2019/02/img_6272-1.jpg)
+* [sweetener album cover](https://i.redd.it/hah0v10wrv411.jpg)
+* [dangerous woman album cover](https://i1.wp.com/www.arianagrandebutera.com/wp-content/uploads/2018/12/Dangerous-Woman-Ariana-Grande.jpg?fit=1400%2C1400&ssl=1)
+* [my everything woman album cover](https://i.ebayimg.com/images/i/192823100415-0-1/s-l1000.jpg)
+
+#### Acknowledgements
+* I used code from the following [CodePen](https://codepen.io/littlesnippets/pen/vKpvGP/) for my news cards, although modified for this project
+* I received inspiration for this project from Cole Steele's Web Developer Bootcamp on Udemy, specifically the layout of the music section
+* I used code found on [Stack Overflow](https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling) to change the nav-bar background color on scrolling.
+* My mentor also helped me out with UX improvement suggestions
+
+
+
 
