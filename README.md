@@ -63,33 +63,32 @@ I tried to use semantic HTML where possible.
 <dl>
 
   <dt>Hero image</dt>
-  * Hero image resizes responsively &#10004;
+  <dd>Hero image resizes responsively &#10004;</dd>
 
   <dt>News links</dt>
-  * News cards show an icon on hover, and direct user to relevant section on click. &#10004;
+  <dd>News cards show an icon on hover, and direct user to relevant section on click. &#10004;</dd>
 
   <dt>Music rows</dt>
-  * Music row images alternate position on desktop &#10004;
-  * Music rows stack in order on mobile &#10004;
+  <dd>Music row images alternate position on desktop &#10004;</dd>
+  <dd>Music rows stack in order on mobile &#10004;</dd>
 
   <dt>Music content</dt>
-  * Music content is horizontally and vertically alligned on all screens &#10004;
+  <dd>Music content is horizontally and vertically alligned on all screens &#10004;</dd>
  
   <dt>Music buttons</dt>
-  * Music buttons jumps slightly on hover &#10004;
-  * Music buttons links open in new tab &#10004;
+  <dd>Music buttons jumps slightly on hover &#10004;</dd>
+  <dd>Music buttons links open in new tab &#10004;</dd>
 
   <dt>Video</dt>
-  * Video scales for mobile screens &#10004;
+  <dd>Video scales for mobile screens &#10004;</dd>
 
   <dt>Tour table</dt>
-  * Buy now text inverts on hover &#10004;
-  * Buy now links open in new tab &#10004;
-  * Table scales responsively &#10004;
+  <dd>Buy now text inverts on hover &#10004;</dd>
+  <dd>Buy now links open in new tab &#10004;</dd>
+  <dd>Table scales responsively &#10004;</dd>
 
   <dt>Newsletter</dt>
-  * User is prompted to enter email &#10004;
-  * Warning appears if user doesn't enter '@' &#10004;
+  <dd>User is prompted to enter email &#10004;</dd>
+  <dd>Warning appears if user doesn't enter '@' &#10004;</dd>
  </dl>
 
- 
