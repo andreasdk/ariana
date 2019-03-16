@@ -50,3 +50,9 @@ I tried to use semantic HTML where possible.
 * I used [jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery) to give the transparent navbar a background color on scroll.
 
 ---
+
+## Testing
+* I validated my HTML code with [WC3 HTML Validator](https://validator.w3.org) and got 'Document checking completed. No errors or warnings to show.'.
+* I validated my CSS code with [WC3 CSS Validator](https://jigsaw.w3.org/css-validator/) and got 'Congratulations! No Error Found.'.
+
+I used Chrome development tools to test how my website looked on mobile and desktop. I also used c9 as a sort of sandbox for ideas I had, to see how they would look on the site.
